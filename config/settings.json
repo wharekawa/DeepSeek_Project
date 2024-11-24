@@ -1,0 +1,12 @@
+{
+    "logging_level": "INFO",
+    "data_processing": {
+      "normalize": true,
+      "feature_selection": "auto"
+    },
+    "output": {
+      "model_path": "../models/model.pkl",
+      "report_path": "../reports/report.txt"
+    }
+  }
+  

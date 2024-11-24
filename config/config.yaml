@@ -1,0 +1,8 @@
+# config/config.yaml
+
+drop_duplicates: true
+fillna: 0
+model_parameters:
+  algorithm: "random_forest"
+  n_estimators: 100
+  random_state: 42
