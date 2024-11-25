@@ -1,0 +1,279 @@
+2024-11-25 09:47:04,980:INFO:DeepSeek started
+2024-11-25 09:47:04,980:ERROR:An error occurred: [Errno 2] No such file or directory: '../config/config.yaml'
+2024-11-25 09:52:09,605:INFO:DeepSeek started
+2024-11-25 09:52:09,606:INFO:Configuration loaded successfully
+2024-11-25 09:52:09,606:INFO:Loading data from data/sample_data.csv
+2024-11-25 09:52:09,607:ERROR:An error occurred: [Errno 2] No such file or directory: 'data/sample_data.csv'
+2024-11-25 09:58:31,193:INFO:DeepSeek started
+2024-11-25 09:58:31,193:INFO:Configuration loaded successfully
+2024-11-25 09:58:31,193:INFO:Loading data from data/sample_data.csv
+2024-11-25 09:58:31,209:INFO:Dropped duplicate records
+2024-11-25 09:58:31,209:INFO:Filled missing values
+2024-11-25 09:58:31,209:INFO:Starting model training
+2024-11-25 09:58:31,209:INFO:Model training completed
+2024-11-25 09:58:31,209:INFO:DeepSeek completed successfully
+2024-11-25 10:05:32,040:INFO:DeepSeek started
+2024-11-25 10:05:32,041:ERROR:An error occurred: Test Exception
+2024-11-25 10:05:32,055:INFO:DeepSeek started
+2024-11-25 10:05:32,055:INFO:DeepSeek completed successfully
+2024-11-25 10:10:17,325:INFO:DeepSeek started
+2024-11-25 10:10:17,326:INFO:Configuration loaded successfully
+2024-11-25 10:10:17,326:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:10:17,338:INFO:Dropped duplicate records
+2024-11-25 10:10:17,338:INFO:Filled missing values
+2024-11-25 10:10:17,338:INFO:Starting model training
+2024-11-25 10:10:17,404:INFO:Model training completed
+2024-11-25 10:10:17,409:INFO:Model Accuracy: 0.00%
+2024-11-25 10:10:17,419:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00       1.0
+           6       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-11-25 10:10:17,419:INFO:Confusion Matrix:
+[[0 1]
+ [0 0]]
+2024-11-25 10:10:17,422:INFO:Model saved to models/model.pkl
+2024-11-25 10:10:17,423:INFO:DeepSeek completed successfully
+2024-11-25 10:15:26,931:INFO:DeepSeek started
+2024-11-25 10:15:26,931:ERROR:An error occurred: Test Exception
+2024-11-25 10:15:26,935:INFO:DeepSeek started
+2024-11-25 10:15:26,936:INFO:DeepSeek completed successfully
+2024-11-25 10:16:52,049:INFO:DeepSeek started
+2024-11-25 10:16:52,050:INFO:Configuration loaded successfully
+2024-11-25 10:16:52,050:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:16:52,057:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 10:16:52,058:INFO:Filled missing values
+2024-11-25 10:16:52,058:INFO:Starting model training
+2024-11-25 10:16:52,120:INFO:Model training completed
+2024-11-25 10:16:52,123:INFO:Model Accuracy: 0.00%
+2024-11-25 10:16:52,132:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00       1.0
+           6       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-11-25 10:16:52,132:INFO:Confusion Matrix:
+[[0 1]
+ [0 0]]
+2024-11-25 10:16:52,134:INFO:Model saved to models/model.pkl
+2024-11-25 10:16:52,134:INFO:DeepSeek completed successfully
+2024-11-25 10:18:20,793:INFO:DeepSeek started
+2024-11-25 10:18:20,794:ERROR:An error occurred: Test Exception
+2024-11-25 10:18:20,799:INFO:DeepSeek started
+2024-11-25 10:18:20,799:INFO:DeepSeek completed successfully
+2024-11-25 10:18:36,724:INFO:DeepSeek started
+2024-11-25 10:18:36,725:INFO:Configuration loaded successfully
+2024-11-25 10:18:36,726:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:18:36,728:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 10:18:36,728:INFO:Filled missing values
+2024-11-25 10:18:36,728:INFO:Starting model training
+2024-11-25 10:18:36,795:INFO:Model training completed
+2024-11-25 10:18:36,798:INFO:Model Accuracy: 0.00%
+2024-11-25 10:18:36,808:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00       1.0
+           6       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-11-25 10:18:36,809:INFO:Confusion Matrix:
+[[0 1]
+ [0 0]]
+2024-11-25 10:18:36,813:INFO:Model saved to models/model.pkl
+2024-11-25 10:18:36,813:INFO:DeepSeek completed successfully
+2024-11-25 10:25:13,153:INFO:DeepSeek started
+2024-11-25 10:25:13,155:INFO:Configuration loaded successfully
+2024-11-25 10:25:13,155:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:25:13,171:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 10:25:13,171:INFO:Filled missing values
+2024-11-25 10:25:13,171:INFO:Starting model training
+2024-11-25 10:25:13,239:INFO:Model training completed
+2024-11-25 10:25:13,244:INFO:Model Accuracy: 0.00%
+2024-11-25 10:25:13,252:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00       1.0
+           6       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-11-25 10:25:13,252:INFO:Confusion Matrix:
+[[0 1]
+ [0 0]]
+2024-11-25 10:25:13,256:INFO:Model saved to models/model.pkl
+2024-11-25 10:25:13,256:INFO:DeepSeek completed successfully
+2024-11-25 10:27:36,657:INFO:DeepSeek started
+2024-11-25 10:27:36,659:INFO:Configuration loaded successfully
+2024-11-25 10:27:36,659:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:27:36,669:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 10:27:36,669:INFO:Filled missing values
+2024-11-25 10:27:36,670:INFO:Starting model training
+2024-11-25 10:27:36,740:INFO:Model training completed
+2024-11-25 10:27:36,745:INFO:Model Accuracy: 0.00%
+2024-11-25 10:27:36,756:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00       1.0
+           6       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-11-25 10:27:36,756:INFO:Confusion Matrix:
+[[0 1]
+ [0 0]]
+2024-11-25 10:27:36,759:INFO:Model saved to models/model.pkl
+2024-11-25 10:27:36,760:INFO:DeepSeek completed successfully
+2024-11-25 10:32:42,916:INFO:DeepSeek started
+2024-11-25 10:32:42,918:INFO:Configuration loaded successfully
+2024-11-25 10:32:42,919:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:32:42,922:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 10:32:42,922:INFO:Filled missing values
+2024-11-25 10:32:42,922:INFO:Starting model training
+2024-11-25 10:32:42,998:INFO:Model training completed
+2024-11-25 10:32:43,002:INFO:Model Accuracy: 0.00%
+2024-11-25 10:32:43,009:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00       1.0
+           6       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-11-25 10:32:43,009:INFO:Confusion Matrix:
+[[0 1]
+ [0 0]]
+2024-11-25 10:32:43,012:INFO:Model saved to models/model.pkl
+2024-11-25 10:32:43,012:INFO:DeepSeek completed successfully
+2024-11-25 10:36:41,403:INFO:DeepSeek started
+2024-11-25 10:36:41,404:INFO:Configuration loaded successfully
+2024-11-25 10:36:41,405:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:36:41,412:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 10:36:41,413:INFO:Filled missing values
+2024-11-25 10:36:41,413:INFO:Starting model training
+2024-11-25 10:36:41,479:INFO:Model training completed
+2024-11-25 10:36:41,483:INFO:Model Accuracy: 0.00%
+2024-11-25 10:36:41,490:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00       1.0
+           6       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-11-25 10:36:41,491:INFO:Confusion Matrix:
+[[0 1]
+ [0 0]]
+2024-11-25 10:36:41,494:INFO:Model saved to models/model.pkl
+2024-11-25 10:36:41,495:INFO:DeepSeek completed successfully
+2024-11-25 10:39:34,444:INFO:DeepSeek started
+2024-11-25 10:39:34,446:INFO:Configuration loaded successfully
+2024-11-25 10:39:34,447:INFO:Loading data from data/sample_data.csv
+2024-11-25 10:39:34,455:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 10:39:34,455:INFO:Filled missing values
+2024-11-25 10:39:34,455:INFO:Starting model training
+2024-11-25 10:39:34,524:INFO:Model training completed
+2024-11-25 10:39:34,528:INFO:Model Accuracy: 100.00%
+2024-11-25 10:39:34,534:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       1.00      1.00      1.00         1
+           9       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2024-11-25 10:39:34,534:INFO:Confusion Matrix:
+[[1 0]
+ [0 1]]
+2024-11-25 10:39:34,537:INFO:Model saved to models/model.pkl
+2024-11-25 10:39:34,537:INFO:DeepSeek completed successfully
+2024-11-25 11:08:26,132:INFO:DeepSeek started
+2024-11-25 11:08:26,135:INFO:Configuration loaded successfully
+2024-11-25 11:08:26,135:INFO:Loading data from data/sample_data.csv
+2024-11-25 11:08:26,147:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 11:08:26,147:INFO:Filled missing values
+2024-11-25 11:08:26,147:INFO:Starting model training
+2024-11-25 11:08:26,222:INFO:Model training completed
+2024-11-25 11:08:26,226:INFO:Model Accuracy: 100.00%
+2024-11-25 11:08:26,230:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       1.00      1.00      1.00         1
+           9       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2024-11-25 11:08:26,231:INFO:Confusion Matrix:
+[[1 0]
+ [0 1]]
+2024-11-25 11:08:26,234:INFO:Model saved to models/model.pkl
+2024-11-25 11:08:26,235:INFO:DeepSeek completed successfully
+2024-11-25 00:06:39,949:INFO:DeepSeek started
+2024-11-25 00:06:39,953:INFO:Configuration loaded successfully
+2024-11-25 00:06:39,953:INFO:Loading data from data/sample_data.csv
+2024-11-25 00:06:39,961:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 00:06:39,963:INFO:Filled missing values
+2024-11-25 00:06:39,963:INFO:Starting model training
+2024-11-25 00:06:40,055:INFO:Model training completed
+2024-11-25 00:06:40,064:INFO:Model Accuracy: 100.00%
+2024-11-25 00:06:40,071:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       1.00      1.00      1.00         1
+           9       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2024-11-25 00:06:40,072:INFO:Confusion Matrix:
+[[1 0]
+ [0 1]]
+2024-11-25 00:06:40,082:INFO:Model saved to models/model.pkl
+2024-11-25 00:06:40,082:INFO:DeepSeek completed successfully
+2024-11-25 00:10:06,805:INFO:DeepSeek started
+2024-11-25 00:10:06,807:INFO:Configuration loaded successfully
+2024-11-25 00:10:06,807:INFO:Loading data from data/sample_data.csv
+2024-11-25 00:10:06,811:INFO:Dropped duplicate records: 0 duplicates removed
+2024-11-25 00:10:06,812:INFO:Filled missing values
+2024-11-25 00:10:06,813:INFO:Starting model training
+2024-11-25 00:10:06,875:INFO:Model training completed
+2024-11-25 00:10:06,879:INFO:Model Accuracy: 100.00%
+2024-11-25 00:10:06,884:INFO:Classification Report:
+              precision    recall  f1-score   support
+
+           3       1.00      1.00      1.00         1
+           9       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+2024-11-25 00:10:06,884:INFO:Confusion Matrix:
+[[1 0]
+ [0 1]]
+2024-11-25 00:10:06,893:INFO:Model saved to models/model.pkl
+2024-11-25 00:10:06,893:INFO:DeepSeek completed successfully

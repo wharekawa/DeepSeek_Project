@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+venv/
+tests/models/
+logs/
+models/test_model.pkl

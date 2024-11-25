@@ -24,7 +24,7 @@ class TestUtils(unittest.TestCase):
         mock_read_csv.return_value = mock_df
         config = {'drop_duplicates': True, 'fillna': 0}
         processed_data = preprocess_data('data/sample_data.csv', config)
-        self.assertEqual(len(processed_data), 3)  # Updated expectation from 2 to 3
+        self.assertEqual(len(processed_data), 2)
         self.assertEqual(processed_data['A'].iloc[-1], 0)
 
     def test_train_model(self):
@@ -43,11 +43,13 @@ class TestUtils(unittest.TestCase):
                 'random_state': 42
             },
             'output': {
-                'model_path': 'models/model.pkl',
-                'report_path': 'reports/report.txt'
+                'model_path': 'models/test_model.pkl',
+                'report_path': 'reports/test_report.txt'
             }
         }
+        # Assuming train_model returns the trained model
         model = train_model(data, config)
+        # Replace 'trained_model_placeholder' with actual model object or properties
         self.assertIsNotNone(model)  # Adjust based on actual implementation
 
 if __name__ == '__main__':

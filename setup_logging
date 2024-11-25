@@ -1,0 +1,37 @@
+def setup_logging():
+    """
+    Sets up logging to both console and a log file.
+    """
+    # Determine the absolute path to the project root
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    
+    # Define the logs directory and ensure it exists
+    logs_dir = os.path.join(project_root, 'logs')
+    os.makedirs(logs_dir, exist_ok=True)
+    
+    # Define the full path to the log file
+    log_file = os.path.join(logs_dir, 'deepseek.log')
+    
+    # Create a custom logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)  # Set the minimum logging level
+    
+    # Prevent adding multiple handlers if they already exist
+    if not logger.handlers:
+        # Create handlers
+        c_handler = logging.StreamHandler()
+        f_handler = logging.FileHandler(log_file)
+        
+        c_handler.setLevel(logging.INFO)
+        f_handler.setLevel(logging.INFO)
+        
+        # Create formatters and add them to handlers
+        c_format = logging.Formatter('%(levelname)s: %(message)s')
+        f_format = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
+        
+        c_handler.setFormatter(c_format)
+        f_handler.setFormatter(f_format)
+        
+        # Add handlers to the logger
+        logger.addHandler(c_handler)
+        logger.addHandler(f_handler)

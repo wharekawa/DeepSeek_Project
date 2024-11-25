@@ -1,8 +1,10 @@
-# config/config.yaml
-
 drop_duplicates: true
 fillna: 0
+test_size: 0.2
 model_parameters:
   algorithm: "random_forest"
   n_estimators: 100
   random_state: 42
+output:
+  model_path: "models/model.pkl"
+  report_path: "reports/report.txt"
